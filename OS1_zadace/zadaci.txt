@@ -1,0 +1,20 @@
+Zadatak 1
+pwd && ls && mkdir vjezba1 && cd vjezba1 && touch README.md && cd ..
+
+Zadatak 2
+mkdir vjezba2 && touch vjezba2/file.txt && cp vjezba2/file.txt vjezba2/file_copy.txt && ls vjezba2 && rm vjezba2/file.txt && rmdir vjezba2
+
+Zasto ne mozete?
+Ne moze jer direktorij nije prazan.
+
+Zadatak 3
+mkdir vjezba3 && mkdir vjezba3/backup && touch vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh && cp vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh vjezba3/backup && rm vjezba3/script.sh && ls vjezba3 && mkdir vjezba3/backup/$USER && mv vjezba3/backup/notes.txt vjezba3/backup/todo.txt vjezba3/backup/script.sh vjezba3/backup/$USER
+
+Zadatak 4
+mkdir vjezba4 && mkdir vjezba4/subfolder && touch vjezba4/$HOSTNAME && mv vjezba4/$HOSTNAME vjezba4/$USER && mv vjezba4/$USER vjezba4/subfolder && rm "$(pwd)/vjezba4/subfolder/$USER"
+HOSTNAME je Dario
+Zadatak 5
+mkdir vjezba5 && touch vjezba5/$RANDOM.num && ls vjezba5 && cp vjezba5/*.num vjezba5/backup.num && mkdir backup && mv vjezba5/backup.num backup
+
+Zadatak 6
+mkdir /mnt/c/Users/Dario/Documents/vjezba6 && touch /mnt/c/Users/Dario/Documents/vjezba6/OS_script.md /mnt/c/Users/Dario/Documents/vjezba6/notes.txt && mkdir /mnt/c/Users/Dario/Documents/vjezba6/scripts && mv /mnt/c/Users/Dario/Documents/vjezba6/OS_script.md /mnt/c/Users/Dario/Documents/vjezba6/scripts && mv /mnt/c/Users/Dario/Documents/vjezba6/notes.txt /mnt/c/Users/Dario/Documents/vjezba6/todo.txt && cd /mnt/c/Users/Dario/Documents/vjezba6/scripts && rm ../todo.txt
