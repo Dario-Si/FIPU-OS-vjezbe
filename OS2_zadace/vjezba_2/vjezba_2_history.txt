@@ -1,0 +1,80 @@
+    1  cd Desktop
+    2  git clone https://github.com/Dario-Si/FIPU-OS-VJEZBE.git
+    3  cd FIPU-OS-VJEZBE
+    4  mkdir OS2_zadace
+    5  ls
+    6  cd OS2_zadace
+    7  mkdir vjezba_2
+    8  ls
+    9  cd vjezba_2
+   10  git add .
+   11  git commit -m "Rijesen zadatak 1"
+   12  git push 
+   13  cd ..
+   14  git add .
+   15  git commit -m "Rijesen zadatak 1"
+   16  git push
+   17  ls 
+   18  cd vjezba_2
+   19  mkdir data && mkdir backup
+   20  ls
+   21  cd data
+   22  touch script.js && touch style.css && touch .env
+   23  ls
+   24  echo 'console.log("Hello, World!")' > script.js && echo 'body { background-color: #f0f0f0; }' > style.css && echo 'VJEZBE=OS' > .env
+   25  cat script.js && cat style.css && cat .env
+   26  cd ..
+   27  git add .
+   28  git commit -m "Rijesen zadatak 1"
+   29  git push 
+   30  git add .
+   31  git commit -m "Rijesen prvi i drugi zadatak"
+   32  git push 
+   33  cp -av data/. backup/
+   34  cd data
+   35  ls -laS ../backup
+   36  cd ..
+   37  git add .
+   38  git commit -m "Rijesen zadatak 3"
+   39  git push 
+   40  cd data
+   41  rm -iv script.js style.css
+   42  cp -avn ../backup/. .
+   43  ls -ltA1
+   44  find . -maxdepth 1 ! -name .
+   45  cd ..
+   46  git add .
+   47  git commit -m "Rijesen zadatak 4"
+   48  git push 
+   49  cd ../..
+   50  cd ..
+   51  cd ..
+   52  ls
+   53  cd Documents
+   54  ls -laS
+   55  ls -lhS
+   56  tree -a
+   57  tree --version 
+   58  tree --versiom
+   59  tree --version
+   60  tree
+   61  cd Desktop 
+   62  cd ..
+   63  cd Desktop
+   64  cd CTF
+   65  ls -laS
+   66  ls -laS
+   67  ls -lhS
+   68  tree -a
+   69  git add .
+   70  g
+   71  q
+   72  cd ..
+   73  cd FIPU-OS-VJEZBE
+   74  cd OS2_vjezbe
+   75  ls
+   76  cd OS2_zadace
+   77  git add .
+   78  git commit -m "Zadatak 5 rijesen"
+   79  cd vjezba_2
+   80  history > vjezba_2_history.txt
