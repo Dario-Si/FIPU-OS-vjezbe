@@ -1,0 +1,12 @@
+    1  git clone https://github.com/Dario-Si/FIPU-OS-VJEZBE.git
+    2  cd FIPU-OS-VJEZBE
+    3  mkdir OS3_zadace
+    4  cd OS3_zadace
+    5  mkdir vjezba_1
+    6  cd vjezba_1
+    7  touch rjesenje1.txt skripta1.sh 
+    8  nano skripta1.sh
+    9  pwd
+   10  chmod +x skripta1.sh
+   11  ./skripta1.sh /c/Users/Dario/Desktop/FIPU-OS-VJEZBE/OS3_zadace/vjezba_1 .txt
+   12  history > rjesenje1.txt
